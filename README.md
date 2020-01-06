@@ -1,1 +1,1 @@
-LUFC_SITE_V2
+lufcnews.co.uk
