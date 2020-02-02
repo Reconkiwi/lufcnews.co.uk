@@ -9,6 +9,12 @@
     overflow: hidden;
     margin-top: 10vh;
 
+    @include respond(phone){
+        height: 100vh;
+        margin-top: 0;
+    
+     }
+
         &__content {
             height: 100%;
             width: 100%;

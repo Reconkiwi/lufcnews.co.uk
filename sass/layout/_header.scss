@@ -25,6 +25,11 @@
         height: 45vh;
         width: 50vw;
         margin-top: 10vh;
+
+        @include respond(phone){
+            margin-top: 0;
+        
+         }
        
 
         &-title {
@@ -75,11 +80,12 @@
             height: 30vh;
             width: 30vh;
             top: 20%;
+            margin-left: 5%;
         }
 
         @include respond(tab-port){
 
-            margin-left: 7%;
+            
 
         }
 

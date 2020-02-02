@@ -21,7 +21,7 @@
                     <li><a href="about.html" class="navigation__item">about</a></li>
                     <li><a href="#" class="navigation__item">lufc zone</a></li>
                     <li><a href="index.html" class="navigation__item-logo"></a></li>
-                    <li><a href="#" class="navigation__item">lufc live</a></li>
+                    <li><a href="lufc-live.html" class="navigation__item">lufc live</a></li>
                     <li><a href="#" class="navigation__item">merch</a></li>
                     <li><a href="contact.html" class="navigation__item">contact</a></li>
                 </ul>
@@ -30,9 +30,9 @@
         </header>
 
         <section class="section-contact">
-            <div class="container">
+            
                 <div class="contact">
-
+                    <div class="container">
                     <div class="contact__details">
                         <div class="contact__details-phone">
                             <ion-icon name="call"></ion-icon>
@@ -104,7 +104,11 @@
                         </div>
                     </form>
                 </div>
-            </div>
+                    <div class="contact__map" id="map">
+
+                    </div>
+                </div>
+            
         </section>
         
         <footer class="section-footer">
@@ -188,6 +192,9 @@
 
 <!-- ion icons -->
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6hQcSU0vw2GGcIAXt3Ld5vZvu_z6p7m4&callback=initMap"
+  type="text/javascript" async defer ></script>
     
 </body>
 </html>

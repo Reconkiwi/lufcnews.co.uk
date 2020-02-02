@@ -31,6 +31,7 @@
 
                 h3 {
                     font-size: 3.5rem;
+                    
                 }
             }
 
@@ -49,69 +50,77 @@
                padding: .5rem;
 
                h3 {
-                   font-size: 2rem;
+                   font-size: 1.6rem;
+                   margin-top: 0;
+               }
+
+               p {
+                   font-size: 1.3rem;
                }
 
                 
             }
     }
 
-    &__logo {
+    &__images {
 
-        display: flex;
         flex: 0 0 47.5%;
         z-index: 1;
-        background-color: $primary-yellow;
+        
         height: 50vh;
         position: relative;
+        padding: 3rem;
+        margin-top: 5rem;
 
-        &-bg {
-            @include absCenter;
-            background-color: $color-white;
-            z-index: 2;
-            height: 75%;
-            width: 75%;
-            border-radius: 50%;
-        }
+    }
 
-            img {
+    //     &-bg {
+    //         @include absCenter;
+    //         background-color: $color-white;
+    //         z-index: 2;
+    //         height: 75%;
+    //         width: 75%;
+    //         border-radius: 50%;
+    //     }
+
+    //         img {
                 
-                @include absCenter;
-                height: 45vh;
-                width: auto;
-                z-index: 3;
-                padding-bottom: 2rem;
-            }
+    //             @include absCenter;
+    //             height: 45vh;
+    //             width: auto;
+    //             z-index: 3;
+    //             padding-bottom: 2rem;
+    //         }
 
-            @include respond(tab-land) {
+    //         @include respond(tab-land) {
 
-                height: 40vh;
-            }
+    //             height: 40vh;
+    //         }
 
-            @include respond(tab-port) {
+    //         @include respond(tab-port) {
 
-                height: 30vh;
+    //             height: 30vh;
 
-                img {
+    //             img {
 
-                    height: 30vh;
-                }
-            }
+    //                 height: 30vh;
+    //             }
+    //         }
 
-            @include respond(phone) {
+    //         @include respond(phone) {
 
-                height: 20vh;
+    //             height: 20vh;
 
 
-                img {
+    //             img {
 
-                    height: 20vh;
-                }
+    //                 height: 20vh;
+    //             }
  
                  
-             }
+    //          }
         
-    }
+    // }
 
 
 

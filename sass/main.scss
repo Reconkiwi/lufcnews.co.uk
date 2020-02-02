@@ -34,14 +34,19 @@
   'components/products',
   'components/contact',
   'components/partners',
-  'components/about-timeline';
+  'components/about-timeline',
+  'components/about-composition',
+  'components/live-results';
 
+
+  
 
 // 6. Page-specific styles
 @import
   'pages/home',
   'pages/about',
-  'pages/contact';
+  'pages/contact',
+  'pages/live';
   
 
 // 7. Themes
