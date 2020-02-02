@@ -14,13 +14,48 @@
 </head>
 <body>
 
-    <nav class="navigation">
+    
+
+            <!-- MOBILE NAV CHECKBOX -->
+            <div class="navigation__mobile">
+
+                <input type="checkbox" class="navigation__mobile-checkbox" id="navi-toggle">
+
+                <label for="navi-toggle" class="navigation__mobile-button">
+                    <span class="navigation__mobile-icon">&nbsp;</span>
+                </label>
+                <div class="navigation__mobile-background">&nbsp;</div>
+
+                <nav class="navigation__mobile-nav">
+                    <ul class="navigation__mobile-list">
+                        <li class="navigation__mobile-item"><a href="#" class="navigation__mobile-link">news</a></li>
+                        <li class="navigation__mobile-item"><a href="#" class="navigation__mobile-link">about</a></li>
+                        <li class="navigation__mobile-item"><a href="#" class="navigation__mobile-link">lufc zone</a></li>
+                        <li class="navigation__mobile-item"><a href="lufc-live.html" class="navigation__mobile-link">lufc live</a></li>
+                        <li class="navigation__mobile-item"><a href="#" class="navigation__mobile-link">merch</a></li>
+                        <li class="navigation__mobile-item"><a href="#" class="navigation__mobile-link">contact</a></li>
+                    </ul>
+
+                    <div class="navigation__mobile-socials">
+                        <ion-icon class="ion-icon" name="logo-facebook"></ion-icon>
+                        <ion-icon class="ion-icon" name="logo-twitter"></ion-icon>
+                        <ion-icon class="ion-icon" name="logo-instagram"></ion-icon>
+                        <ion-icon class="ion-icon" name="logo-youtube"></ion-icon>
+                    </div>
+                </nav>
+
+            </div>  
+
+            
+
+
+            <nav class="navigation">
             <ul class="navigation__list">
                 <li><a href="#" class="navigation__item">news</a></li>
                 <li><a href="about.html" class="navigation__item">about</a></li>
                 <li><a href="#" class="navigation__item">lufc zone</a></li>
                 <li><a href="index.html" class="navigation__item-logo"></a></li>
-                <li><a href="#" class="navigation__item">lufc live</a></li>
+                <li><a href="lufc-live.html" class="navigation__item">lufc live</a></li>
                 <li><a href="#" class="navigation__item">merch</a></li>
                 <li><a href="contact.html" class="navigation__item">contact</a></li>
             </ul>
@@ -40,7 +75,7 @@
 
                     <div class="hero__header">
                         <h2 class="hero__header-title">
-                            for the <br> fans
+                            for the fans
                         </h2>
                     </div>
 
@@ -50,7 +85,6 @@
                     <div class="hero__logo-img">
                         <img src="/img/lufc-logo-lg.png" alt="lufc logo">
                     </div>
-
                 </div>
         </section>
     </header>
@@ -116,10 +150,31 @@
                                 distinctio quo magni! Odit, deserunt.</p>
                             
                         </div>
-                        <div class="about__logo">
-                            <div class="about__logo-bg">
+                        <div class="about__images">
+                            <div class="composition">
+
+                                <img 
+                                     alt="Photo 1"
+                                     class="composition__photo composition__photo--p1"
+                                     src="img/leeds-players.jpg">
+    
+                                <img 
+                                     alt="Photo 2"
+                                     class="composition__photo composition__photo--p2"
+                                     src="img/leeds-player-2.jpg">
+    
+                                <img 
+                                     alt="Photo 3"
+                                     class="composition__photo composition__photo--p3"
+                                     src="img/leeds-image.jpg">
+    
+                                <!--
+                                <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                                <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                                <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                                -->
                             </div>
-                            <img src="/img/lufc-logo-lg.png" alt="lufc logo">
+
                         </div>
                 </div>
             </div>

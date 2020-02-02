@@ -3,7 +3,7 @@
     margin-top: 10vh;
     padding-top: 5vh;
     position: relative;
-    color: $color-white;
+    color: $primary-blue;
 
     &::after {
         content: '';
@@ -47,11 +47,12 @@
         background-color: $primary-blue;
         position: relative;
         border-radius: 1rem;
-
+        background-color: $color-white;
+        border: $border-1px;
         display: flex;
         flex-direction: column;
 
-        &-head-left {
+        &-head {
 
             display: flex;
             justify-content: space-between;
@@ -59,17 +60,17 @@
             height: 7vh;
             border-top-left-radius: 1rem;
             border-top-right-radius: 1rem;
+            border-bottom: $border-1px;
             
             h5 {
-                font-size: 2rem;
+                font-size: 2.3rem;
                 text-transform: uppercase;
                 padding: 2rem;
             }
 
             span {
 
-                border: 2px solid $secondary-blue;
-                border-top-right-radius: 1rem;
+                border-left: $border-1px;
                 padding: 1.8rem;
                 font-size: 2rem;
                 color: black;
@@ -91,51 +92,26 @@
     // }
 
 
-
-        &-head-right {
-
-            display: flex;
-            justify-content: space-between;
-            background-color: $primary-yellow;
-            height: 7vh;
-            border-top-left-radius: 1rem;
-            border-top-right-radius: 1rem;
-            
-            h5 {
-                font-size: 2rem;
-                text-transform: uppercase;
-                padding: 2rem;
-            }
-
-            span {
-                
-                border: 2px solid $secondary-blue;
-                border-top-left-radius: 1rem;
-                padding: 1.8rem;
-                font-size: 2rem;
-                color: black;
-
-            }
-        }
-
-
-
-
         &-info {
 
             padding: 1rem;
             font-size: 1.7rem;
+            border-bottom: $border-1px;
         }
         &-img {
             
             display: flex;
             justify-content: center;
             margin: 1rem;
+            width: 95%;
+            height: 95%;
+            border: $border-1px;
+            border-radius: $border-radius;
 
             img {
-
-                height: auto;
+                padding: 2rem;
                 width: 100%;
+                height: auto;
                 border-radius: 1rem;
             }
         }
@@ -172,7 +148,7 @@
             left: 26px;
             border: medium solid  $primary-blue;
             border-width: 13px 13px 13px 0;
-            border-color: transparent  $primary-blue transparent transparent;
+            border-color: transparent  $color-white transparent transparent;
         }
 
         &::after { // make sure the circle is on the timeline
